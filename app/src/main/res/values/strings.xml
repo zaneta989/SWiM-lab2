@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lista Zakupów, Żaneta Larwa</string>
+    <string name="tekstA">Lista Zakupów, wersja 0.1</string>
+    <string name="tekst1">Witaj, w oknie dodawania produktu do listy zakupów. Wprowadź dane, następnie kliknij przycisk Podsumowanie aby zobaczyć stan produktu lub przycisk Dodaj aby dodać produkt do listy.</string>
+    <string name="tekst2">Witaj w oknie poglądu produktu.</string>
+    <string name="tekst3">Witaj w oknie lista zakupów. Możesz zobaczyć tu całą listę zakupów i wybrać zakupione produkty z listy.</string>
+    <string name="tekst4">Podsumowanie</string>
+    <string name="tekst5">Wstecz</string>
+    <string name="tekst6">Nazwa produktu</string>
+    <string name="tekst7">Ilosc</string>
+    <string name="tekst8">Kategorie</string>
+    <string name="tekst9">Nabiał</string>
+    <string name="tekst10">Owoce i warzywa</string>
+    <string name="tekst11">Chemia</string>
+    <string name="tekst12">Produkty zbożowe</string>
+    <string name="tekst13">Słodycze i alkohol</string>
+    <string name="tekst14">Dodawanie produktu do listy</string>
+    <string name="tekst15">Wyswietlanie listy</string>
+    <string name="tekst16">Szeguły listy</string>
+    <string name="tekst17">Zapisz</string>
+</resources>
