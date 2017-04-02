@@ -12,7 +12,7 @@ public class OknoGlowne extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_okno_glowne);
     }
-    public void wyswietlanieOknaD(View view) {
+    public void obliczanie(View view) {
         final Intent intencja2 = new Intent(this,kolejne.class); startActivity(intencja2);
     }
 }

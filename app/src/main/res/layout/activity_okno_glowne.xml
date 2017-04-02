@@ -27,7 +27,7 @@
         android:layout_below="@+id/textView2"
         android:layout_alignRight="@+id/button5"
         android:layout_alignEnd="@+id/button5"
-        android:onClick="wyswietlanieOknaSzL"/>
+        android:onClick="obliczanie"/>
 
     <Button
         android:id="@+id/button5"
