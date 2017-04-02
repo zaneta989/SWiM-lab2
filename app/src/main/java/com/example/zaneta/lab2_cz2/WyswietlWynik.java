@@ -40,9 +40,37 @@ public class WyswietlWynik extends AppCompatActivity {
         setResult(Activity.RESULT_OK, i);
     }
 
-    private String funkcja(Boolean cK, int m, int w, int wz, int af, String p)
+    private String funkcja(Boolean cK, int waga, int wiek, int wzrost, int af, String p)
     {
-        return "1800";
+        int BMR=1800;
+        if(!cK)
+        {
+            BMR= (int) (66 + 13.7 * waga + 5 * wzrost - 6.8 * wiek);
+        }
+        else{
+            BMR = (int) (655 + 9.6 *waga+ 1.8 - 4.7 * wiek);
+        }
+        if(af==1)
+        {
+            BMR*=1.2;
+        }
+        if (af==2)
+        {
+            BMR*=1.375;
+
+        }
+        if(af==3)
+        {
+            BMR*=1.5;
+        }
+        if(af==4){
+            BMR*=1.7;
+        }
+        if(p.equals("Schudnąc")) {BMR-=300;}
+        if(p.equals("Przytyc")) {
+            BMR += 500;
+        }
+        return Integer.valueOf(BMR).toString();
     }
 
     public void powrotDoPoprzedniego(View view) {

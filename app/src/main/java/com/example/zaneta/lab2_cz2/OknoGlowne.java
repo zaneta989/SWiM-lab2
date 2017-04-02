@@ -15,4 +15,7 @@ public class OknoGlowne extends AppCompatActivity {
     public void obliczanie(View view) {
         final Intent intencja2 = new Intent(this,kolejne.class); startActivity(intencja2);
     }
+    public void ocen(View view) {
+        final Intent intencja2 = new Intent(this,Ocen.class); startActivity(intencja2);
+    }
 }

@@ -9,8 +9,8 @@
     <string name="tekst2">Wzrost (cm)</string>
     <string name="tekst3">Płeć</string>
     <string name="tekst8">Aktywność fizyczna</string>
-    <string name="tekst9">Schudnąć</string>
-    <string name="tekst10">Przytyć</string>
+    <string name="tekst9">Schudnąc</string>
+    <string name="tekst10">Przytyc</string>
     <string name="tekst11">Utrzymać wagę</string>
     <string name="tekst14" />
     <string name="tekst15">Wyswietlanie listy</string>
@@ -22,4 +22,14 @@
     <string name="tekst22">Planuje</string>
     <string name="tekst21">W tym oknie wyświetlany jest wynik.</string>
     <string name="tekst23">Twoje zapotrzebowanie kaloryczne(BMR) wynosi (w kcl): </string>
+    <string name="tekst24">W tym oknie możesz ocenić aplikacje, wystarczy że wybierzesz odpowiednie opcje.</string>
+    <string name="tekst25">Aplikacja BMR jest:</string>
+    <string name="tekst26">Super</string>
+    <string name="tekst27">Taka sobie</string>
+    <string name="tekst28">Zła</string>
+    <string name="tekst29">Żle oblicza BMR</string>
+    <string name="tekst30">Nie można wprowadzić danych</string>
+    <string name="tekst31">Zawiesza się </string>
+    <string name="tekst32">Wyślij</string>
+    <string name="tekst33">Ocen</string>
 </resources>

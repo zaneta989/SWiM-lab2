@@ -158,7 +158,8 @@
 
         <Button
             android:id="@+id/button2"
-            android:text="@string/tekst4" />
+            android:text="@string/tekst4"
+            android:onClick="pokazToast"/>
 
     </TableRow>
 </TableLayout>
