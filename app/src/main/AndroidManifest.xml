@@ -16,7 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".kolejne" />
+        <activity android:name=".kolejne">
+            <intent-filter >
+                <action android:name="com.example.zaneta.lab2_cz2.intent.action.kolejne"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".WyswietlWynik" />
         <activity android:name=".Ocen"></activity>
     </application>
