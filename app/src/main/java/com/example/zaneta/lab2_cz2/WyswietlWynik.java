@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.SeekBar;
+import android.widget.TextView;
 import android.widget.ToggleButton;
 
 public class WyswietlWynik extends AppCompatActivity {
@@ -30,7 +31,8 @@ public class WyswietlWynik extends AppCompatActivity {
 
         wynik = funkcja(czyKobieta, masaCiala, wiek, wzrost, aktywnoscFizyczna, planuje);
 
-        // TODO
+        TextView wyn = (TextView) findViewById(R.id.textView7);
+        wyn.setText(wynik);
 
         Bundle res = new Bundle();
         res.putString("wynik", wynik);
@@ -44,6 +46,7 @@ public class WyswietlWynik extends AppCompatActivity {
     }
 
     public void powrotDoPoprzedniego(View view) {
+        finish();
         onBackPressed();
     }
 }

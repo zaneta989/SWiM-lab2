@@ -129,17 +129,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:checked="true"
                 android:text="@string/tekst11" />
 
         </RadioGroup>
 
     </TableRow>
 
+    <TextView
+        android:id="@+id/textView13"
+        android:text="@string/tekst8" />
 
     <Button
         android:id="@+id/button3"
         android:text="@string/tekst20"
-
+        android:onClick="wywolajDrugieOkno"
         />
 
     <TableRow

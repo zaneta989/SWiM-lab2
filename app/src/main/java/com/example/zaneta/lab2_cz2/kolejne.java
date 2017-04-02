@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.SeekBar;
+import android.widget.TextView;
 import android.widget.ToggleButton;
 
 public class kolejne extends AppCompatActivity {
@@ -26,7 +27,8 @@ public class kolejne extends AppCompatActivity {
         {
             String wynik = "";
             wynik = i.getExtras().getString("wynik");
-            // TODO
+            TextView wyn = (TextView) findViewById(R.id.textView13);
+            wyn.setText(wynik);
         }
     }
 
@@ -53,7 +55,7 @@ public class kolejne extends AppCompatActivity {
         return dane;
     }
 
-    public void wywolajDrugieOkno()
+    public void wywolajDrugieOkno(View view)
     {
         Intent i = new Intent(this, WyswietlWynik.class);
         i.putExtras(this.pobierzDane());
