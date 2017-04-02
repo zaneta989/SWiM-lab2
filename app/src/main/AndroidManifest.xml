@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".kolejne" />
+        <activity android:name=".WyswietlWynik"></activity>
     </application>
 
 </manifest>

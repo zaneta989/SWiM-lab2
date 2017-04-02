@@ -9,15 +9,17 @@
     <string name="tekst2">Wzrost (cm)</string>
     <string name="tekst3">Płeć</string>
     <string name="tekst8">Aktywność fizyczna</string>
-    <string name="tekst9">Znikoma (praca siedząca)</string>
-    <string name="tekst10">Mała (ćwiczenia raz na tydzień)</string>
-    <string name="tekst11">Umiarkowana (ćwiczenia 2-3 razy w tygodniu)</string>
-    <string name="tekst12">Duża (ćwiczenia kilka razy w tygodniu)</string>
-    <string name="tekst13">Bardzo duża (ćwiczenia >5 razy w tygodniu lub  praca fizyczna)</string>
+    <string name="tekst9">Schudnąć</string>
+    <string name="tekst10">Przytyć</string>
+    <string name="tekst11">Utrzymać wagę</string>
     <string name="tekst14">Dodawanie produktu do listy</string>
     <string name="tekst15">Wyswietlanie listy</string>
-    <string name="tekst16">Oblicz</string>
-    <string name="tekst17">Zapisz</string>
+    <string name="tekst16">Wprowadź dane</string>
+    <string name="tekst17">Oblicz</string>
     <string name="tekst18">Kobieta</string>
     <string name="tekst19">Mężczyzna</string>
+    <string name="tekst20">Oblicz</string>
+    <string name="tekst22">Planuje</string>
+    <string name="tekst21">W tym oknie wyświetlany jest wynik.</string>
+    <string name="tekst23">Twoje zapotrzebowanie kaloryczne(BMR) wynosi (w kcl): </string>
 </resources>
