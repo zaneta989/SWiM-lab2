@@ -17,8 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".kolejne" />
-        <activity android:name=".WyswietlanieDodanegoProduktu" />
-        <activity android:name=".WyswietlanieListy"></activity>
     </application>
 
 </manifest>
